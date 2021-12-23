@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BirthdayGreetings</string>
+    <string name="enter_a_name">Enter a name:</string>
+    <string name="name">Name</string>
+    <string name="create_birthday_wish">Create birthday wish</string>
+    <string name="input_hint_text" />
+    <string name="wish_you_a_very_happy_and_memorable_birthday">Wish you a very Happy and memorable birthday</string>
+    <string name="wish_you_a_very_happy_birthday">wish you a ver happy birthday</string>
+    <string name="Wish_you_a_very_Happy_Birthday">Wish you a very Happy Birthday</string>
+</resources>

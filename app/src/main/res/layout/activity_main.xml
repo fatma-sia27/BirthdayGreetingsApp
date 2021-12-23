@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="90dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helperMessage"
+        android:layout_width="276dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/enter_a_name"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="285dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="@string/input_hint_text"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/helperMessage" />
+
+    <Button
+        android:id="@+id/createBirthdayButton"
+        android:layout_width="241dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="124dp"
+        android:onClick="createBirthdayCard"
+        android:text="Create Birthday wish"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameInput" />
+</androidx.constraintlayout.widget.ConstraintLayout>
